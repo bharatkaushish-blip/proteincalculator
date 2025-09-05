@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Protein Calculator – Free Daily Protein Intake Calculator</title>
+    <!-- JSON-LD: tell Google this is a free web app / calculator -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Protein Calculator",
+  "url": "https://proteincalculator.in",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Web",
+  "description": "Free protein calculator to estimate daily protein needs using weight, height, age and activity level.",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+  "creator": { "@type": "Organization", "name": "Protein Calculator" }
+}
+</script>
     <!-- Optional, for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" type="image/png" href="/favicon.png" />
@@ -26,6 +40,19 @@
     text-rendering:optimizeLegibility;
   }
 </style>  
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Protein Calculator" />
+<meta property="og:title" content="Protein Calculator – Free Daily Protein Intake Calculator" />
+<meta property="og:description" content="Find your exact daily protein needs using weight, height, age and activity level. Free and science-based." />
+<meta property="og:url" content="https://proteincalculator.in/" />
+<meta property="og:image" content="https://proteincalculator.in/og.png" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Protein Calculator – Free Daily Protein Intake Calculator" />
+<meta name="twitter:description" content="Find your exact daily protein needs using weight, height, age and activity level. Free and science-based." />
+<meta name="twitter:image" content="https://proteincalculator.in/og.png" />
 </head>
   <body>
     <div id="root"></div>
